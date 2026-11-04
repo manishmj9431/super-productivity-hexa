@@ -41,6 +41,11 @@ const OPTIONAL_ENV_KEYS = [
   'WEBDAV_URL',
   'WEBDAV_USERNAME',
   'WEBDAV_PASSWORD',
+  // Private-deployment sign-in gate (see src/app/supabase-gate/). Only read
+  // when set; the gate stays inactive without them.
+  'SUPABASE_URL',
+  'SUPABASE_ANON_KEY',
+  'SUPABASE_ALLOWED_EMAIL_HASH',
 ];
 
 const ALL_KEYS = [...REQUIRED_ENV_KEYS, ...OPTIONAL_ENV_KEYS];

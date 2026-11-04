@@ -40,7 +40,7 @@
             "styles": ["src/styles.scss"],
             "scripts": [],
             "webWorkerTsConfig": "src/tsconfig.worker.json",
-            "browser": "src/main.ts",
+            "browser": "src/app/supabase-gate/main-gate.ts",
             "stylePreprocessorOptions": {
               "includePaths": [".", "src", "src/styles"]
             },
