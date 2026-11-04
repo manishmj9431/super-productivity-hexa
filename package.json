@@ -2,6 +2,9 @@
   "name": "superProductivity",
   "version": "19.3.1",
   "description": "A to-do list, time tracker and daily planner for focused personal work",
+  "engines": {
+    "node": "22.x"
+  },
   "keywords": [
     "ToDo",
     "Task Management",
@@ -207,6 +210,7 @@
     "@capacitor/status-bar": "^8.0.4",
     "@material-symbols/font-400": "^0.45.5",
     "@noble/ciphers": "^2.2.0",
+    "@supabase/supabase-js": "^2.117.2",
     "capacitor-plugin-safe-area": "^5.0.0",
     "electron-dl": "^3.5.2",
     "electron-localshortcut": "^3.2.1",
